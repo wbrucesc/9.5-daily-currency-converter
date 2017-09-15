@@ -10,10 +10,8 @@ public class Main {
     }
 
     public static void usd() {
-        System.out.println("Program running!");
-
         Money dollars = new Money(1000, "EUR");
-           double amount = dollars.convertToDollar();
+        double amount = dollars.convertToDollar();
         System.out.println(amount);
     }
 
